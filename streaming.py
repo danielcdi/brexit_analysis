@@ -14,10 +14,10 @@ import pandas as pd
 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="c8OvlZ0pCGI4w03eJPonFFSV8"
-csecret="qLYD5XcLKnF0kE7llsMgD6E8eS8cfnVrywgn2TcINmfKndv9Q6"
-atoken="1133434433212747776-MPdc2bDsjHXl8ImTihgNCWwaMyPmJV"
-asecret="5RgIGOpnMzj3ltqR77iuHMUDxi4SzbTpLJpHhR9AIPKF0"
+ckey="key"
+csecret="secret"
+atoken="token"
+asecret="secret"
 
 newtfidf = joblib.load('models/tfidf.pkl')
 lr = joblib.load('models/lr-clf.pkl')
